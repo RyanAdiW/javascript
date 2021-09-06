@@ -1,3 +1,7 @@
+/*=========================================
+  penulisan fungsi
+  ========================================= */
+
 // penulisan function model lama
 function jalanSatu(){
 	console.log("Jalan satu");
@@ -16,3 +20,28 @@ const jalanTiga = ()=>{
 }
 
 jalanTiga();
+
+/*=========================================
+  mengembalikan nilai pada sebuah fungsi
+  ========================================= */
+function ambil() {
+	var angka = 10;
+	return angka;
+}
+
+console.log(ambil());
+
+/*=========================================
+  membuat parameter pada fungsi
+  ========================================= */
+function mintaData(x, y, z) {
+	console.log(x,y,z);
+}
+
+mintaData(10,11,12);
+
+// deffault parameter
+function deffaultParam(a="ini deffault parameter") {
+	console.log(a)
+}
+deffaultParam();

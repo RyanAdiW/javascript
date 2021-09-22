@@ -12,7 +12,7 @@ function panggilShift() {
 
 console.log(panggilShift());
 
-console.log("=====================================================")
+console.log("========================================================")
 
 // pop untuk menghapus data array paling belakang
 function panggilPop() {
@@ -27,3 +27,16 @@ function panggilPop() {
 }
 
 console.log(panggilPop());
+
+console.log("========================================================")
+
+// push utuk memasukkan data ke dalam array
+function panggilPush() {
+	var data = [1,2,3,4,5,6,7,8];
+	console.log(data);
+	console.log("=========");
+	data.push(9);
+	return data;
+}
+
+console.log(panggilPush());

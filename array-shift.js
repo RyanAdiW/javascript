@@ -28,9 +28,9 @@ function panggilPop() {
 
 console.log(panggilPop());
 
-console.log("========================================================")
+console.log("========================================================");
 
-// push utuk memasukkan data ke dalam array
+// push untuk memasukkan data ke dalam array
 function panggilPush() {
 	var data = [1,2,3,4,5,6,7,8];
 	console.log(data);
@@ -40,3 +40,15 @@ function panggilPush() {
 }
 
 console.log(panggilPush());
+
+console.log("========================================================");
+
+// splice untuk menyisipkan data pada indeks yang kita mau
+function panggilSplice() {
+	var kota = ["jakarta", "bandung", "malang", "surabaya"];
+	console.log(kota);
+	kota.splice(0,0,"temanggung");
+	return kota;
+}
+
+console.log(panggilSplice());

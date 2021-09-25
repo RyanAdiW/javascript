@@ -43,11 +43,17 @@ console.log(panggilPush());
 
 console.log("========================================================");
 
-// splice untuk menyisipkan data pada indeks yang kita mau
+// splice untuk menyisipkan dan menghapus data pada indeks yang kita mau
+// syntax = array.splice(index yg mau disisipkan, indeks yg mau dihapus, item1, ....., itemX)
 function panggilSplice() {
 	var kota = ["jakarta", "bandung", "malang", "surabaya"];
 	console.log(kota);
-	kota.splice(0,0,"temanggung");
+	// untuk menambahkan data pada indeks ke 0
+	// kota.splice(0,0,"temanggung");
+	
+	// untuk meghapus data pada indeks 1
+	kota.splice(0,1);
+	
 	return kota;
 }
 

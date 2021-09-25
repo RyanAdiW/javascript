@@ -61,3 +61,15 @@ function panggilSplice() {
 }
 
 console.log(panggilSplice());
+
+console.log("========================================================");
+
+// unshift untuk menambahkan data baru ke dalam array pada indeks awal.
+function panggilUnshift() {
+	var kota = ["jakarta", "bandung", "malang", "surabaya"];
+	console.log(kota);
+	kota.unshift("temanggung", "jogja");
+	return kota;
+}
+
+console.log(panggilUnshift());

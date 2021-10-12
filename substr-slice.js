@@ -37,9 +37,18 @@ function include() {
 	console.log(inc.includes("adalah"))
 }
 
+function startEnd() {
+	var starte = "Aku pandai memasak bakso"
+
+	console.log(starte.startsWith("Aku"))
+	console.log(starte.endsWith("bakso"))
+
+}
+
 subString();
 slice();
 split();
 trim();
 concat();
 include();
+startEnd();

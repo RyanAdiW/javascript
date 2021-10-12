@@ -45,6 +45,11 @@ function startEnd() {
 
 }
 
+function repeat() {
+	var isi = "Ayo pakai masker"
+	console.log(isi.repeat(2))
+}
+
 subString();
 slice();
 split();
@@ -52,3 +57,4 @@ trim();
 concat();
 include();
 startEnd();
+repeat();

@@ -23,7 +23,15 @@ function trim(argument) {
 	console.log(nama.trim())
 }
 
+function concat() {
+	var nama1 = "ini kalimat pertama,"
+	var nama2 = " dan ini kalimat kedua,"
+
+	console.log(nama1.concat(nama2.concat(" lalu ini kalimat terakhir")))
+}
+
 subString();
 slice();
 split();
 trim();
+concat();

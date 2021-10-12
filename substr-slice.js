@@ -16,7 +16,7 @@ function split() {
 	console.log(nama.split(" ",2))
 }
 
-function trim(argument) {
+function trim() {
 	var nama = " ini adalah string "
 
 	// menghilangkan spasi pada awal dan akhir string
@@ -30,8 +30,16 @@ function concat() {
 	console.log(nama1.concat(nama2.concat(" lalu ini kalimat terakhir")))
 }
 
+function include() {
+	var inc = "ini adalah include"
+
+	// The includes() method returns true if a string contains a specified string, otherwise false.
+	console.log(inc.includes("adalah"))
+}
+
 subString();
 slice();
 split();
 trim();
 concat();
+include();

@@ -97,6 +97,14 @@ function mat() {
 	console.log(isi.match("Saya"))
 }
 
+function rplc(argument) {
+	var data = "baling baling bambu doraemon"
+
+	// mengganti kata dalam string
+	// string.replace(searchvalue, newvalue)
+	console.log(data.replace("bambu", "besi"))
+}
+
 subString();
 slice();
 split();
@@ -110,3 +118,4 @@ indeksOf();
 lastIndeks();
 search();
 mat();
+rplc();

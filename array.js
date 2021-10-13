@@ -37,8 +37,16 @@ function panggilSplit() {
 	console.log(kota.split(" "))	
 }
 
+//array-indexOf
+// untuk pencarian data pada array
+function panggilIndexOf(argument) {
+	var kota = ["jakarta", "bandung", "temanggung", "yogyakarta"];
+	console.log(kota.indexOf("temanggung"))
+}
+
 panggilReverse();
 panggilConcat();
 panggilSlice();
 panggilJoin();
 panggilSplit();
+panggilIndexOf();

@@ -50,6 +50,38 @@ function repeat() {
 	console.log(isi.repeat(2))
 }
 
+function konversi(){
+	var con = new String("Belajar kuy")
+	console.log(typeof con)
+	console.log(con)
+
+	var conf = con.toString()	// untuk mengonversi dari string object ke string primitive
+	console.log(typeof conf)
+	console.log(conf)
+
+	var conf2 = con.valueOf()	// untuk mengonversi dari string object ke string primitive
+	console.log(typeof conf2)
+	console.log(conf2)
+
+}
+
+function indeksOf(){
+	var ind = "aku ingin terbang bebas"
+
+	// mengetahui indeks dari suatu char atau string
+	console.log(ind.indexOf('b'))
+}
+
+function lastIndeks() {
+	var last = "aku ingin terbang bebas dan berlari bebas"
+
+	// The lastIndexOf() method returns the position of the last occurrence of a specified value in a string.
+	// lastIndexOf() searches the string from the end to the beginning, 
+	// but returns the index s from the beginning, starting at position 0.
+	// syntax string.lastIndexOf(searchvalue, start)
+	console.log(last.lastIndexOf("bebas", 20))
+}
+
 subString();
 slice();
 split();
@@ -58,3 +90,6 @@ concat();
 include();
 startEnd();
 repeat();
+konversi();
+indeksOf();
+lastIndeks();

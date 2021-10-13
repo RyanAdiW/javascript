@@ -90,6 +90,13 @@ function search() {
 	console.log(cari.search("di"))
 }
 
+function mat() {
+	var isi = "saya pintar memasak soto"
+
+	// The match() method searches a string for a match against a regular expression, and returns the matches, as an Array object.
+	console.log(isi.match("Saya"))
+}
+
 subString();
 slice();
 split();
@@ -102,3 +109,4 @@ konversi();
 indeksOf();
 lastIndeks();
 search();
+mat();

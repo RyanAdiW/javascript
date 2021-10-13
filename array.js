@@ -31,7 +31,7 @@ function panggilJoin() {
 }
 
 // array-split
-// menggabungkan data string menjadi array
+// memisah data string menjadi array
 function panggilSplit() {
 	var kota = "kita sedang makan malam";
 	console.log(kota.split(" "))	

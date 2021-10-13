@@ -82,6 +82,14 @@ function lastIndeks() {
 	console.log(last.lastIndexOf("bebas", 20))
 }
 
+function search() {
+	var cari = "aku ingin terbang di angkasa"
+
+	// The search() method searches a string for a specified value, and returns the position of the match.
+	// The search value can be string or a regular expression.
+	console.log(cari.search("di"))
+}
+
 subString();
 slice();
 split();
@@ -93,3 +101,4 @@ repeat();
 konversi();
 indeksOf();
 lastIndeks();
+search();

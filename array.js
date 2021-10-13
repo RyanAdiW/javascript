@@ -23,6 +23,22 @@ function panggilSlice() {
 	console.log(data.slice(1,5))
 }
 
+// array-join
+// mengubah array menjadi string
+function panggilJoin() {
+	var kota = ["jakarta", "bandung", "temanggung", "yogyakarta"];
+	console.log(kota.join(", "))
+}
+
+// array-split
+// menggabungkan data string menjadi array
+function panggilSplit() {
+	var kota = "kita sedang makan malam";
+	console.log(kota.split(" "))	
+}
+
 panggilReverse();
 panggilConcat();
 panggilSlice();
+panggilJoin();
+panggilSplit();

@@ -45,9 +45,16 @@ function panggilIndexOf(argument) {
 	console.log(kota.indexOf("temanggung"))
 }
 
+// mengurutkan array berasarkan abjad
+function panggilSort(){
+	var kota = ["jakarta", "bandung", "temanggung", "yogyakarta"];
+	console.log(kota.sort());
+}
+
 panggilReverse();
 panggilConcat();
 panggilSlice();
 panggilJoin();
 panggilSplit();
 panggilIndexOf();
+panggilSort();

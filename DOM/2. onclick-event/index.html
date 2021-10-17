@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar Javascript - NIOMIC</title>
+	</head>
+
+	<body>
+		<button type="button" onclick="panggilEvent()">Jalankan</button><br><br>
+		
+		<input type="text" id="namadepan" value="Ryan"><br>
+		<input type="text" id="namabelakang" value="Adi"><br>
+		<button type="button" name="Button" onclick="getElemen()">Jalankan</button>
+
+		<script type="text/javascript">
+			function panggilEvent() {
+				alert("SUKSES!")
+			}
+
+			function getElemen() {
+				console.log(document.getElementById("namadepan"));
+				console.log(document.getElementById("namabelakang"));
+			}
+		</script>
+	</body>
+</html>

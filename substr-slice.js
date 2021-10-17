@@ -9,11 +9,11 @@ function slice() {
 }
 
 function split() {
-	var nama = "ini adalah data"
+	var nama = "ini adalah data split"
 	
 	// syntax
 	// string.split(separator, limit)
-	console.log(nama.split(" ",2))
+	console.log(nama.split(" ",4))
 }
 
 function trim() {

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar HTML - NIOMIC</title>
+	</head>
+
+	<body>
+		<button type="button" onclick="tombol()" name="button">Klik</button>
+		<p id="contoh">contoh</p>
+
+		<script type="text/javascript">
+			function tombol() {
+				var a = document.getElementsByTagName("button")[0];
+				var b = a.attributes.length;		// jumlah attribute pada tag button 
+
+				document.getElementById("contoh").innerHTML = b;
+			}
+		</script>
+	</body>
+</html>

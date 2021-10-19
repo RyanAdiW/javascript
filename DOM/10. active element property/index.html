@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar Javascript - NIOMIC</title>
+	</head>
+
+	<body onclick="tombol()">
+		<p>
+			Nama Lengkap <input type="text" value="field"> <button>klik</button>
+		</p>
+
+		<p id="contoh">contoh</p>
+
+		<script type="text/javascript">
+			function tombol() {
+				var a = document.activeElement.tagName;
+				document.getElementById("contoh").innerHTML = a;
+			}
+		</script>
+	</body>
+</html>

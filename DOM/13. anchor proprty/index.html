@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar JavaScript - NIOMIC</title>
+	</head>
+
+	<body>
+		<a name="sumatera" href="#">Pulau Sumatera</a><br>
+		<a name="jawa" href="#">Pulau Jawa</a><br>
+		<a name="kalimantan" href="#">Pulau Kalimantan</a><br>
+		<a name="papua" href="#">Pulau Papua</a>
+
+		<p id="contoh">contoh</p>
+
+		<button onclick="tombol()">klik</button>
+
+		<script type="text/javascript">
+			function tombol() {
+				var a = document.anchors.length;
+				document.getElementById("contoh").innerHTML = a;
+			}	
+		</script>
+	</body>
+</html>

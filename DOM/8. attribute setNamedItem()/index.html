@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar javascript - NIOMIC</title>
+		<style type="text/css" media="screen">
+			.contohcss{
+				color: red;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<button type="button" onclick="tombol()" name="button">Klik</button>
+		<h1>Hello Gan!</h1>
+
+		<script type="text/javascript">
+			function tombol() {
+				var a = document.getElementsByTagName("h1")[0]; // mendeklarasikan bagian mana yg akan diubah (h1)
+				var b = document.createAttribute("class");		// memberikan attribute baru bernama class
+				b.value = "contohcss";							// memberikan value pada attribute class dg "contohcss"
+				a.attributes.setNamedItem(b);					// menambahkan hasil dr b ke variabel a
+			}
+		</script>
+	</body>
+</html>

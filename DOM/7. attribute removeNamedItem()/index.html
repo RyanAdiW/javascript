@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Belajar javascript - NIOMIC</title>
+	</head>
+	
+	<body>
+		<button type="button" onclick="tombol()" name="button">Klik</button>
+		<br><br>
+
+		<input type="button" value="ADA">
+
+		<script type="text/javascript">
+			function tombol() {
+				var a = document.getElementsByTagName("input")[0];
+				var b = a.attributes.removeNamedItem("value");
+				var c = a.attributes.removeNamedItem("type");
+			}
+		</script>
+	</body>
+</html>

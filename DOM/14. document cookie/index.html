@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar Javascript - NIOMIC</title>
+	</head>
+
+	<body>
+		<button onclick="tombol()">klik</button>
+		<p id="contoh">contoh</p>
+
+		<script type="text/javascript">
+			function tombol() {
+				document.cookie = "password = 12345678"
+				var a = document.cookie;
+				document.getElementById("contoh").innerHTML = "Cookie: " + a;
+			}
+		</script>
+	</body>
+</html>

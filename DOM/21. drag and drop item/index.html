@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar javascript - NIOMIC</title>
+		<style type="text/css">
+			.droptarget{
+				float: left;
+				width: 100px;
+				height: 35px;
+				margin: 15px;
+				padding: 10px;
+				border: 1px solid #aaaaaa;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>drag element di antara dua kotak</p>
+
+		<div class="droptarget" ondrop="drop()" ondragover="allowDrop()">
+			<p id="dragTarget" ondragstart="dragStart()" ondrag="dragging()" draggable="true">
+				Drag saya!
+			</p>
+		</div>
+
+		<div class="droptarget" ondrop="drop()" ondragover="allowDrop()"></div>
+		
+		<p id="objectText"></p>
+
+		<script type="text/javascript" src="drag-drop.js"></script>
+	</body>
+</html>

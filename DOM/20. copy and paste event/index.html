@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar javascript NIOMIC</title>
+	</head>
+	
+	<body>
+		<input type="text" oncopy="copyText()" value="coba copy text ini">
+		<p id="objectText"> </p>
+
+		<input type="text" onpaste="pasteText()" value="pastekan di sini">
+		<p id="pasteHere"></p>
+
+		<script type="text/javascript">
+			function copyText() {
+				document.getElementById("objectText").innerHTML = "Text telah berhasil dicopy";
+			}
+
+			function pasteText() {
+				document.getElementById("pasteHere").innerHTML = "Text berhasil dipaste";
+			}
+		</script>
+	</body>
+</html>

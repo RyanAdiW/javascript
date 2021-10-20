@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar javascript - NIOMIC</title>
+	</head>
+	<body>
+		<p>Pilih menu makanan </p>
+
+		<select id="menu" onchange="pilihMenu()">
+			<option value="Nasi Goreng">Nasi Goreng</option>
+			<option value="Ayam Goreng">Ayam Goreng</option>
+			<option value="Bebek Goreng">Bebek Goreng</option>
+			<option value="Udang Goreng">Udang Goreng</option>
+			<option value="Ayam Goreng">Ayam Goreng</option>
+		</select>
+
+		<p id="clicked"></p>
+
+		<script type="text/javascript">
+			function pilihMenu() {
+				var a = document.getElementById("menu").value;
+				document.getElementById("clicked").innerHTML = "Kamu memilih menu: " + a;
+			}
+		</script>
+	</body>
+</html>

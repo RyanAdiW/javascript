@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar javascript - NIOMIC</title>
+	</head>
+	<body>
+		<h1>Ini adalah onclick event</h1>
+
+		<p>click event akan berjalan pada saat tombol button diklik 2x</p>
+		<p>click akan emmanggil fungsi pada script js</p>
+
+		<button type="button" ondblclick="tombol()">Klik</button>
+		<p id="clicked"> </p>
+
+		<script type="text/javascript">
+			function tombol() {
+				document.getElementById("clicked").innerHTML = "Saya Sudah Diklik";
+				document.body.style.backgroundColor = "red"
+			}
+		</script>		
+	</body>
+</html>

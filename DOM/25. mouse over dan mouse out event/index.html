@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<p onmouseout="zoomOut(this)" onmouseover="zoomIn(this)">Dekatkan mouse ke tulisan ini</p>
+
+	<script type="text/javascript">
+		function zoomIn(argument) {
+			argument.style.fontSize = "20pt";
+			argument.style.background = "red";
+		}	
+		function zoomOut(argument) {
+			argument.style.fontSize = "12pt";	
+			argument.style.background = "white";	
+		}
+	</script>
+</body>
+</html>

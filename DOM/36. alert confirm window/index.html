@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<button onclick="konfirmasi()">Klik di sini</button>
+
+		<p id="hasil"></p>
+
+		<script type="text/javascript">
+			function konfirmasi() {
+				var s = '';
+				var conf = confirm('Apakah km yakin?');
+				if (conf === true) {
+					text = 'kamu yakin';
+				} else{
+					text = 'kamu ragu';
+				}
+
+				document.getElementById('hasil').innerHTML = text;
+			}
+		</script>
+	</body>
+</html>

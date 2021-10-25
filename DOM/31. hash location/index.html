@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p id="hash"></p>
+
+		<button onclick="hashLocation()">Panggil Anchor</button>
+
+		<script type="text/javascript">
+			function hashLocation() {
+				location.hash = 'niomic1';
+				var x = 'sekarang anchornya ' + location.hash;
+				document.getElementById('hash').innerHTML = x;
+			}
+		</script>
+	</body>
+</html>

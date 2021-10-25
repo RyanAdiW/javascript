@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p id="hostname"></p>
+
+		<button onclick="lihatHostname()">Lihat hostname</button>
+
+		<script type="text/javascript">
+			function lihatHostname() {
+				var x = location.hostname;
+				document.getElementById('hostname').innerHTML = x;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar HTML colection item() method()</title>
+	</head>
+	
+	<body>
+		<h1>Belajar HTML Collection item() methode()</h1>
+
+		<p>Paragraf Pertama</p>
+		<p>Paragraf Kedua</p>
+
+		<button onclick="itemMethode()"> Tombol Alert </button>
+
+		<script type="text/javascript">
+			function itemMethode() {
+				var x = document.getElementsByTagName('p');
+				alert(x.item(1).innerHTML);		// memunculkan isi dari tag p pada indeks 1
+				alert('Panjang HTML collectionnya adalah ' + x.length);				// menampilkan panjang dari html collection 
+			}
+		</script>
+	</body>
+</html>
